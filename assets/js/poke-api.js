@@ -8,6 +8,11 @@ function convertPokeApiDetailToPokemon(pokeDetail){
     pokemon.number = pokeDetail.id
     pokemon.name = pokeDetail.name
 
+    pokemon.weight = pokeDetail.weight
+    pokemon.height = pokeDetail.height
+    pokemon.baseExp = pokeDetail.base_experience
+
+
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
     const [type1] = types
     

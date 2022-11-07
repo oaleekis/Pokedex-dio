@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+a{
+    font-style: none;
+    list-style: none; 
+    text-decoration: none;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -86,6 +92,7 @@
     margin: .5rem;
     padding: 2rem 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
